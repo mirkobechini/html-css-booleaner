@@ -9,7 +9,7 @@
 header {
     background-image: url(./img/pattern.png);
     background-color: #4ea0ff;
-    background-size: contain;
+    background-size: 30%;
 
 }
 
@@ -66,18 +66,25 @@ ul {
 
 
 /* table */
-th {
-    background-color: #20a9e5;
-    color: white;
-    margin: 0px;
-}
-
-.tr-colored {
-    background-color: #b1e5f2;
-}
-
 table{
     border-collapse: collapse;
+    width: 100%;
+}
+
+thead {
+    background-color: #20a9e5;
+    color: white;
+    margin: 0px;    
+    word-spacing: 200px;
+}
+
+th{
+    text-align: left;
+}
+
+tbody{
+    
+    tr:nth-child(odd) {background-color: #b1e5f2;}
 }
 /* /table */
 
@@ -94,16 +101,22 @@ h4 {
 
 #img-container {
     margin: 5px;
-    position: relative;
+    font-weight: bold;
+    font-family: 'PT Serif', verdana, serif;
     color: white;
 }
 
-.img-descr {
-    margin: 5px;
-    font-weight: bold;
-    font-family: 'PT Serif', verdana, serif;
-    font-size: 18px;
-    position: absolute;
+#monitor{
+    background-image: url(./img/monitor.jpg);
+    height: 200px;
+    width: 220px;
+}
+
+#graph{
+    
+    background-image: url(./img/graph.jpg);
+    height: 200px;
+    width: 220px;
 }
 /* /interests */
 /* /main */
