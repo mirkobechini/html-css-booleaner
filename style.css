@@ -75,6 +75,10 @@ th {
 .tr-colored {
     background-color: #b1e5f2;
 }
+
+table{
+    border-collapse: collapse;
+}
 /* /table */
 
 /* interests */
