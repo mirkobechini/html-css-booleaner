@@ -3,25 +3,25 @@
     text-align: left;
     width: 150px;
     margin-top: 20px;
-    margin-left: 5px;
 }
 
 header {
     background-image: url(./img/pattern.png);
     background-color: #4ea0ff;
-    background-size: 30%;
-
+    background-size: 20%;
 }
 
 body {
     margin: 0px;
     font-family: 'PT Serif', verdana, serif;
 }
+
 /* /header */
 
 /* main */
-main{
+main {
     margin: 10px;
+
 }
 
 #p-berner {
@@ -54,6 +54,7 @@ h1 {
 #marked-lorem {
     background-color: yellow;
 }
+
 /* /paragraphs */
 
 /* list */
@@ -62,11 +63,12 @@ ul {
     margin-bottom: 30px;
     padding-left: 20px;
 }
+
 /* /list */
 
 
 /* table */
-table{
+table {
     border-collapse: collapse;
     width: 100%;
 }
@@ -74,25 +76,28 @@ table{
 thead {
     background-color: #20a9e5;
     color: white;
-    margin: 0px;    
+    margin: 0px;
     word-spacing: 200px;
 }
 
-th{
+th {
     text-align: left;
 }
 
-tbody{
-    
-    tr:nth-child(odd) {background-color: #b1e5f2;}
+tbody {
+
+    tr:nth-child(odd) {
+        background-color: #b1e5f2;
+    }
 }
+
 /* /table */
 
 /* interests */
 h4 {
     margin-bottom: 10px;
     color: #808080;
-    
+
 }
 
 .btm-img {
@@ -105,22 +110,32 @@ h4 {
     color: white;
 }
 
-.image-section{
+.image-section {
     margin: 0px;
 }
 
-#monitor{
+#monitor {
     background-image: url(./img/monitor.jpg);
     height: 200px;
     width: 220px;
     margin-top: 5px;
 }
 
-#graph{
+#graph {
     background-image: url(./img/graph.jpg);
     height: 200px;
     width: 220px;
     margin-top: 10px;
 }
+
 /* /interests */
 /* /main */
+
+
+/* BONUS */
+.bonus {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* /BONUS */
