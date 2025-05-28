@@ -1,0 +1,16 @@
+#logo {
+    text-align: left;
+    width: 150px;
+    padding-top: 20px;
+}
+
+header {
+background-image: url(./img/pattern.png);
+background-color: cornflowerblue;
+background-size: contain;
+
+}
+
+body{
+    margin: 0px;
+}
