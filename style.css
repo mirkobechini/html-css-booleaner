@@ -100,23 +100,27 @@ h4 {
 }
 
 #img-container {
-    margin: 5px;
     font-weight: bold;
     font-family: 'PT Serif', verdana, serif;
     color: white;
+}
+
+.image-section{
+    margin: 0px;
 }
 
 #monitor{
     background-image: url(./img/monitor.jpg);
     height: 200px;
     width: 220px;
+    margin-top: 5px;
 }
 
 #graph{
-    
     background-image: url(./img/graph.jpg);
     height: 200px;
     width: 220px;
+    margin-top: 10px;
 }
 /* /interests */
 /* /main */
