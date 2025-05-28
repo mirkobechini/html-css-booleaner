@@ -58,3 +58,25 @@ th{
 .tr-colored{
     background-color: rgb(2, 204, 255);
 }
+
+h4{
+    margin-bottom: 10px;
+    color: grey;
+}
+
+.btm-img{
+   width: 200px;
+}
+
+#img-container{
+    margin: 5px;
+    position: relative;
+    color:white;
+}
+
+.img-descr{
+   margin: 5px;
+   font-weight: bold;
+   font-size: 18px;
+   position: absolute;
+}
