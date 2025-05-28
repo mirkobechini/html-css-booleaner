@@ -2,17 +2,19 @@
     text-align: left;
     width: 150px;
     margin-top: 20px;
+    margin-left: 5px;
 }
 
 header {
     background-image: url(./img/pattern.png);
-    background-color: cornflowerblue;
+    background-color: #4ea0ff;
     background-size: contain;
 
 }
 
 body {
     margin: 0px;
+    font-family: 'PT Serif', verdana, serif;
 }
 
 #p-berner {
@@ -21,13 +23,14 @@ body {
 }
 
 .h1p-berner {
-    color: rgb(165, 163, 160);
+    color: #808080;
     margin: 0px;
 }
 
 h1 {
     margin-top: 15px;
     margin-bottom: 0px;
+    font-size: 40px;
 
 }
 
@@ -37,46 +40,48 @@ h1 {
 }
 
 #booleaner {
-    color: rgb(11, 184, 236);
+    color: #20a9e5;
 }
 
-#marked-lorem{
+#marked-lorem {
     background-color: yellow;
 }
 
-ul{
+ul {
     margin-top: 30px;
     margin-bottom: 30px;
     padding-left: 20px;
 }
 
-th{
-    background-color: rgb(0, 152, 253);
+th {
+    background-color: #20a9e5;
     color: white;
 }
 
-.tr-colored{
-    background-color: rgb(2, 204, 255);
+.tr-colored {
+    background-color: #b1e5f2;
 }
 
-h4{
+h4 {
     margin-bottom: 10px;
-    color: grey;
+    color: #808080;
+    
 }
 
-.btm-img{
-   width: 200px;
+.btm-img {
+    width: 250px;
 }
 
-#img-container{
+#img-container {
     margin: 5px;
     position: relative;
-    color:white;
+    color: white;
 }
 
-.img-descr{
-   margin: 5px;
-   font-weight: bold;
-   font-size: 18px;
-   position: absolute;
+.img-descr {
+    margin: 5px;
+    font-weight: bold;
+    font-family: 'PT Serif', verdana, serif;
+    font-size: 18px;
+    position: absolute;
 }
