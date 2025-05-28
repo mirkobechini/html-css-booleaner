@@ -1,3 +1,4 @@
+/* header */
 #logo {
     text-align: left;
     width: 150px;
@@ -15,6 +16,12 @@ header {
 body {
     margin: 0px;
     font-family: 'PT Serif', verdana, serif;
+}
+/* /header */
+
+/* main */
+main{
+    margin: 10px;
 }
 
 #p-berner {
@@ -43,25 +50,34 @@ h1 {
     color: #20a9e5;
 }
 
+/* paragraphs */
 #marked-lorem {
     background-color: yellow;
 }
+/* /paragraphs */
 
+/* list */
 ul {
     margin-top: 30px;
     margin-bottom: 30px;
     padding-left: 20px;
 }
+/* /list */
 
+
+/* table */
 th {
     background-color: #20a9e5;
     color: white;
+    margin: 0px;
 }
 
 .tr-colored {
     background-color: #b1e5f2;
 }
+/* /table */
 
+/* interests */
 h4 {
     margin-bottom: 10px;
     color: #808080;
@@ -85,3 +101,5 @@ h4 {
     font-size: 18px;
     position: absolute;
 }
+/* /interests */
+/* /main */
